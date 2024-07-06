@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-size: 24px; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    background-image: url(../img/Landing\ Page.png);
+    background-size: cover;
+   
+}
+.home_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.image img{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 10px solid  #4f351e;
+    box-shadow: #62512b 10px 10px 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.content h1{
+    font-size: 80px;
+    color: #4f351e;
+    margin-top: 10%;
+   
+}
+.content p{
+    width: 60%;
+    font-size: 20px;
+    color: #4f351e;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.content a{
+    font-size: 20px;
+    color: #4f351e;
+    background-color: bisque;
+    padding-top: 10px;
+    text-decoration: none;
+    border: 3px solid #4f351e;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
