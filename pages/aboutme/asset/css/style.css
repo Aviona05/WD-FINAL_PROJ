@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-size: 24px; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+}
