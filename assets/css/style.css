@@ -65,4 +65,22 @@ body{
     border: 3px solid #4f351e;
     padding: 10px 20px;
     border-radius: 50px;
+    margin-bottom: 20%;
+    transition: 0.5s;
+}
+.content a:hover{
+    background-color: #4f351e;
+    color: bisque;
+}
+.logo{
+    display: flex;
+    padding-left: 90%;
+    width: 35%;
+    height: 35%;
+    justify-content: flex-end;
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
