@@ -20,6 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
 
 }
 .image img{
@@ -30,7 +31,7 @@ body{
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border: 10px solid  #4f351e;
-    box-shadow: #62512b 10px 10px 10px;
+    box-shadow: #5746209a 10px 10px 10px;
 }
 .content{
     display: flex;
