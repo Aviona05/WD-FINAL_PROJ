@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Righteous&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +6,9 @@
    
 }
 body{
-    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    font-size: 24px; 
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variant: normal; 
-    font-weight: 700; 
     line-height: 26.4px;
     background-image: url(../img/Landing\ Page.png);
     background-size: cover;
@@ -27,33 +26,40 @@ body{
     display: flex;
     width: 80%;
     height: 80%;
-    margin-left: 50px;
+    margin-left: 60px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    border: 10px solid  #4f351e;
+    border: 5px solid  #4f351e;
     box-shadow: #5746209a 10px 10px 10px;
 }
 .content{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
     height: 50%;
     align-items: flex-start;
     justify-content: flex-start;
+}
+.content h2{
+    font-size: 40px;
+    color: #4f351e;
+    margin-top: 5%;
+    font-weight: 90;
 
 }
 .content h1{
     font-size: 80px;
     color: #4f351e;
-    margin-top: 10%;
+    margin-top: 5%;
    
 }
 .content p{
-    width: 60%;
-    font-size: 20px;
+    width: 70%;
+    font-size: 13px;
     color: #4f351e;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-weight: 90;
 
 }
 .content a{
@@ -65,7 +71,7 @@ body{
     border: 3px solid #4f351e;
     padding: 10px 20px;
     border-radius: 50px;
-    margin-bottom: 20%;
+    margin-bottom: 14%;
     transition: 0.5s;
 }
 .content a:hover{
