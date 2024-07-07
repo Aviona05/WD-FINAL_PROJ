@@ -14,3 +14,21 @@ body{
     background-image: url(../img/bg1.png);
     background-size: cover;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #f6d67fb5;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
