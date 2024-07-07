@@ -17,9 +17,9 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
     background-color: #8c6f5589;
     font-size: 20px;
+    height: 50px;
     
 }
 nav img{
@@ -60,4 +60,38 @@ a::before {
 a:hover::before {
     visibility: visible;
     transform: scaleX(1);
+}
+.Aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#4f351e;
+    text-align: center;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4f351e;
+    flex-direction: column;
+    margin-left: 7%;
+    width: 50%;
+}
+.content h1{
+    font-size: 50px;
+    color:#4f351e;
+    margin-bottom: 5%;
+}
+
+.content p{
+    font-size: 15px;
+    color:#4f351e;
+    text-align: left;
+   
+}
+.myImage img{
+    width: 85%;
+    height: 85%;
+    margin-top: 1%;
 }
