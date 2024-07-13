@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +11,7 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 26.4px;
-    background-image: url(../img/bg1.png);
-    background-size: cover;
+   
 }
 nav{
     display: flex;
@@ -63,11 +63,13 @@ a:hover::before {
 }
 .Aboutme{
     display: flex;
+    height: 49rem;
     justify-content: center;
     align-items: center;
     color:#4f351e;
     text-align: center;
-
+    background-image: url(../img/bg1.png);
+    background-size: 100% 100%;
 }
 .content{
     display: flex;
@@ -77,21 +79,197 @@ a:hover::before {
     flex-direction: column;
     margin-left: 7%;
     width: 50%;
+
 }
 .content h1{
     font-size: 50px;
     color:#4f351e;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .content p{
-    font-size: 15px;
+    font-size: 20px;
     color:#4f351e;
     text-align: left;
+    font-family: "Playfair Display", serif;
    
 }
 .myImage img{
-    width: 85%;
-    height: 85%;
+    width: 80%;
+    height: 80%;
     margin-top: 1%;
+}
+.Section2{
+    background-image: url(../img/bg2.png);
+    background-size: 100% 67rem;
+    background-repeat: no-repeat;
+}
+.aboutme2 {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+
+}
+h1 {
+    font-size: 70px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #4f351e;
+  
+}
+
+.personalInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-left: 50%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.details, .skills {
+    border: 2px solid #c0a9a0;
+    padding: 5px;
+    width: 40%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #4f351e;
+}
+.skills p{
+    font-size: 20px;
+    color: #4f351e;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.details p{
+    font-size: 20px;
+    color: #4f351e;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.ul2 {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    font-size: 16px;
+}
+.viewResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.viewResume p{
+    font-size: 20px;
+    color: #4f351e;
+}
+.viewResume a{
+    font-size: 20px;
+    color: #4f351e;
+    border: #4f351e 2px solid;
+    border-radius: 10px;
+}
+
+.Experience {
+    display: flex;
+    width: 100rem;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.languages li, .tools li {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    width: auto;
+    height: auto;
+}
+
+.tools li img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.languages li img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.languages li span, .tools li span {
+    font-size: 15px;
+    color: #666;
+}
+
+.languages li:hover, .tools li:hover {
+    transform: translateY(-5px);
+}
+
+.languages ul {
+    justify-content:center;
+    gap: 100px;
+    margin-left: 15%;
+    padding-bottom: 2%;
+}
+
+.tools ul {
+    justify-content:center;
+    gap: 30px;
+    margin-left: 15%;
+}
+
+
+.languages li {
+    flex: 0 0 auto;
+    margin-right: 40px;
+}
+
+.tools li {
+    flex: 0 0 22%;
+}
+.languages h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #4f351e;
+    margin-bottom: 30px;
+}
+
+ .tools h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #4f351e;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 600px) {
+    .languages ul, .tools ul {
+        justify-content: space-around;
+    }
+    
+    .languages li, .tools li {
+        flex: 0 0 40%;
+        margin-bottom: 20px;
+    }
 }
