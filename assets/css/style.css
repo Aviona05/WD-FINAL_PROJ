@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +11,58 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 26.4px;
-    background-image: url(../img/Landing\ Page.png);
-    background-size: cover;
    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8c6f5589;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 8%;
+    margin-left: 10%;
+}
+.a1{
+    position: relative;
+    font-size:20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 30px;
+    transition: color .5s;
+    
+}
+ .a1:hover {
+    color: rgb(255, 255, 255);
+}
+.a1::before {
+   content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4f351e;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ;
+}
+
+.a1:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
 }
 .home_page{
     display: flex;
@@ -20,6 +70,9 @@ body{
     align-items: center;
     height: 100vh;
     position: relative;
+    background-image: url(../img/Landing\ Page.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
 }
 .image img{
@@ -48,45 +101,140 @@ body{
 
 }
 .content h1{
-    font-size: 80px;
+    font-size: 90px;
     color: #4f351e;
     margin-top: 5%;
-   
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 5%;
+    text-shadow: #352a1e38 10px 10px 10px;
 }
+
 .content p{
     width: 70%;
-    font-size: 13px;
+    font-size: 18px;
     color: #4f351e;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-weight: 90;
+    margin-top: 2%;
+    margin-bottom: 25%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
 
-}
-.content a{
-    font-size: 20px;
-    color: #4f351e;
-    background-color: bisque;
-    padding-top: 10px;
-    text-decoration: none;
-    border: 3px solid #4f351e;
-    padding: 10px 20px;
-    border-radius: 50px;
-    margin-bottom: 14%;
-    transition: 0.5s;
-}
-.content a:hover{
-    background-color: #4f351e;
-    color: bisque;
-}
+
 .logo{
     display: flex;
-    padding-left: 90%;
-    width: 35%;
-    height: 35%;
+    padding-left:90%;
+    width: 20%;
+    height: 20%;
     justify-content: flex-end;
-    transition: 0.5s;
 }
-.logo:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
+
+.home_page2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url(../img/LP2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 5%;
+
+}
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.content2 p{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    font-size: 15px;
+    color: #4f351e;
+    font-weight: 90;
+
+
+}
+.nav2{
+    display: flex;
+    height: 10px;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.ul2{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-right: 8%;
+    flex-direction: column;
+}
+.nav2 a {
+    position: relative;
+    word-spacing: 5px;
+    font-size: 50px;
+    color: #4f351e;
+    text-decoration: none;
+    padding: 5px 30px;
+    transition: transform 0.5s;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    display: inline-block; 
+    overflow: hidden; 
+    height: 50px;
+
+}
+
+.nav2 a::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 0;
+    right: 50%; 
+    white-space: nowrap; 
+    color: #4f351e; 
+    transition: transform 0.8s;
+}
+
+.nav2 a:hover::before {
+    transform: translateX(30%); 
+}
+.nav2 a:hover {
+    transform: translateX(30%); 
+    transition: transform 0.8s; 
 }
