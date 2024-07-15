@@ -43,16 +43,16 @@
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
      <li>
-      <a href="#deployment-instructions">Resources</a>
+      <a href="#deployment-instructions">Deployment Instructiona</a>
     </li>
      <li>
-      <a href="#my-projects">Resources</a>
+      <a href="#my-projects">My projects</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
     </li>
      <li>
-      <a href="#wakatime">Resources</a>
+      <a href="#wakatime">Wakatime</a>
     </li>
   </ol>
 </details>
