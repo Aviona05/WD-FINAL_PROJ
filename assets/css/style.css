@@ -11,44 +11,58 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 26.4px;
+    background-image: url(../img/Landing\ Page.png);
+    background-size: 100% 86%;
+    background-repeat: no-repeat;
    
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 6vh;
     background-color: #8c6f5589;
     font-size: 20px;
-    height: 50px;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
-nav img{
-    width: 80px;
-    height: 80px;
 
+ img {
+    width: 60px;
+    height: 60px;
 }
-ul{
+
+ul {
     display: flex;
-    gap: 40px;
+    gap: 35px;
     list-style: none;
-    margin-right: 8%;
-    margin-left: 10%;
+    margin-right: 15%;
 }
-.a1{
+
+nav a {
     position: relative;
-    font-size:20px;
+    font-size: 15px;
     color: #ffffff;
     text-decoration: none;
-    padding: 5px 30px;
-    transition: color .5s;
-    
+    padding:  15px 30px;
+    transition: color 0.5s;
 }
- .a1:hover {
+
+nav a:hover {
     color: rgb(255, 255, 255);
 }
-.a1::before {
-   content: "";
+
+nav a::before {
+    content: "";
     position: absolute;
     width: 100%;
     height: 2px;
@@ -57,10 +71,10 @@ ul{
     background-color: #4f351e;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all 0.5s ;
+    transition: all 0.5s;
 }
 
-.a1:hover::before {
+nav a:hover::before {
     visibility: visible;
     transform: scaleX(1);
 }
@@ -70,9 +84,7 @@ ul{
     align-items: center;
     height: 100vh;
     position: relative;
-    background-image: url(../img/Landing\ Page.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+   
 
 }
 .image img{
@@ -82,7 +94,6 @@ ul{
     margin-left: 60px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    border: 5px solid  #4f351e;
     box-shadow: #5746209a 10px 10px 10px;
 }
 .content{
@@ -96,8 +107,7 @@ ul{
 .content h2{
     font-size: 40px;
     color: #4f351e;
-    margin-top: 5%;
-    font-weight: 90;
+      font-weight: 90;
 
 }
 .content h1{
@@ -114,127 +124,121 @@ ul{
 
 .content p{
     width: 70%;
-    font-size: 18px;
+    font-size: 15px;
     color: #4f351e;
     margin-top: 2%;
-    margin-bottom: 25%;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    font-family: "Righteous", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
-
-
-.logo{
-    display: flex;
-    padding-left:90%;
-    width: 20%;
-    height: 20%;
-    justify-content: flex-end;
-}
-
-.home_page2{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 40rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-image: url(../img/LP2.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.content2{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 90%;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 5%;
-    margin-left: 5%;
-    padding-bottom: 5%;
-}
-.c1{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-bottom: 5%;
-
-}
-
 .c2{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 5%;
-    padding-bottom: 5%;
+    border-top: 2px solid #463000;
+
 }
-.content2 p{
+.c2 p{
     display: flex;
-    width: 70%;
-    height: 100%;
-    font-size: 15px;
+    align-items: center;
+    font-size: 18px;
     color: #4f351e;
-    font-weight: 90;
-
-
-}
-.nav2{
-    display: flex;
-    height: 10px;
-    width: 100%;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
-
-.ul2{
-    display: flex;
-    gap: 60px;
-    list-style: none;
-    margin-right: 8%;
-    flex-direction: column;
-}
-.nav2 a {
-    position: relative;
-    word-spacing: 5px;
-    font-size: 50px;
-    color: #4f351e;
-    text-decoration: none;
-    padding: 5px 30px;
-    transition: transform 0.5s;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    display: inline-block; 
-    overflow: hidden; 
-    height: 50px;
 
 }
 
-.nav2 a::before {
-    content: attr(data-text); 
-    position: absolute;
-    top: 0;
-    right: 50%; 
-    white-space: nowrap; 
-    color: #4f351e; 
-    transition: transform 0.8s;
+
+.anfooter2 {
+    background: linear-gradient(45deg, #8e612579 0%, #fcbd5e38 99%, #f1d17b35 50%);
+    padding: 30px 30px 10px; 
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
 }
 
-.nav2 a:hover::before {
-    transform: translateX(30%); 
+.ancontainer2 {
+    padding-left: 15%;
+    width: 100%;
+    align-items: center;
 }
-.nav2 a:hover {
-    transform: translateX(30%); 
-    transition: transform 0.8s; 
+
+.social-links2-2 {
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.social-links2-2 a {
+    text-decoration: none;
+    padding: 8px; 
+    background-color: rgb(255, 255, 255);
+    margin: 5px; 
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+}
+
+.social-links2-2 a img {
+    width: 25px; 
+    height: 20px;
+}
+
+.social-links2-2 a:hover {
+    background-color: #463000;
+}
+
+.social-links2-2 a:hover img {
+    filter: invert(1);
+}
+
+.navi-2 ul li a:hover {
+    opacity: 1;
+}
+
+.bottom-2 {
+    padding: 10px; 
+    text-align: center;
+    width: 100%;
+
+}
+
+.bottom-2 p {
+    color: white;
+    margin-left: 5%;
+  
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+    font-size: 0.9em; 
+}
+
+@media (max-width: 700px) {
+    .navi-2 ul {
+        flex-direction: column;
+    }
+
+    .navi-2 ul li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0; 
+    }
+
+    .social-links2-2 a {
+        padding: 6px; 
+        margin: 3px; 
+    }
+
+    .social-links2-2 a img {
+        width: 18px; 
+        height: 18px; 
+    }
 }
