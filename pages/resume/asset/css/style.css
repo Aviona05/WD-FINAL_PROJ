@@ -33,14 +33,14 @@ nav{
     height: 6vh;
 }
 nav img{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 }
 ul{
     display: flex;
     gap: 65px;
     list-style: none;
-    margin-right: 14%;
+    margin-right: 15%;
 }
 nav a{
     position: relative;
