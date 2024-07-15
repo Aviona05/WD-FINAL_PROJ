@@ -11,7 +11,10 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 26.4px;
-   
+    background-image: url(../img/bg1.jpg);
+    background-size: 100% 91%;
+    backdrop-filter: blur(5px);
+   background-repeat: no-repeat;
 }
 nav{
     display: flex;
@@ -22,29 +25,45 @@ nav{
     height: 50px;
     
 }
-nav img{
-    width: 80px;
-    height: 80px;
-
-}
-ul{
+nav {
     display: flex;
-    gap: 40px;
-    list-style: none;
-    margin-right: 10%;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    background-color: #8c6f5589;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
-a{
+
+nav img {
+    width: 60px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    margin-right: 15%;
+}
+
+nav a {
+  
     position: relative;
-    font-size:20px;
+    font-size: 17px;
     color: #ffffff;
     text-decoration: none;
-    padding: 5px 30px;
+    padding: 15px 30px;
     transition: color .5s;
 }
- a:hover {
+
+nav a:hover {
     color: rgb(255, 255, 255);
 }
-a::before {
+
+nav a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -54,13 +73,14 @@ a::before {
     background-color: #4f351e;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all 0.5s ;
+    transition: all 0.5s;
 }
 
-a:hover::before {
+nav a:hover::before {
     visibility: visible;
     transform: scaleX(1);
 }
+
 .Aboutme{
     display: flex;
     height: 49rem;
@@ -68,8 +88,6 @@ a:hover::before {
     align-items: center;
     color:#4f351e;
     text-align: center;
-    background-image: url(../img/bg1.png);
-    background-size: 100% 100%;
 }
 .content{
     display: flex;
@@ -79,6 +97,7 @@ a:hover::before {
     flex-direction: column;
     margin-left: 7%;
     width: 50%;
+    margin-top: 5%;
 
 }
 .content h1{
@@ -88,7 +107,7 @@ a:hover::before {
 }
 
 .content p{
-    font-size: 20px;
+    font-size: 25px;
     color:#4f351e;
     text-align: left;
     font-family: "Playfair Display", serif;
@@ -99,85 +118,37 @@ a:hover::before {
     height: 80%;
     margin-top: 1%;
 }
-.Section2{
-    background-image: url(../img/bg2.png);
-    background-size: 100% 67rem;
-    background-repeat: no-repeat;
-}
-.aboutme2 {
-    display: flex;
-    max-width: 800px;
-    flex-direction: column;
-
-}
-h1 {
-    font-size: 70px;
-    font-weight: normal;
-    margin-bottom: 10px;
-    color: #4f351e;
-  
-}
-
-.personalInfo {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 5%;
-    margin-left: 50%;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    
-}
-
-.details, .skills {
-    border: 2px solid #c0a9a0;
-    padding: 5px;
-    width: 40%;
-    box-sizing: border-box;
-    box-shadow: 0 0 10px #4f351e;
-}
-.skills p{
-    font-size: 20px;
-    color: #4f351e;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-}
-.details p{
-    font-size: 20px;
-    color: #4f351e;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-}
-.ul2 {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    flex-direction: column;
-}
-
-li {
-    display: flex;
-    font-size: 16px;
-}
 .viewResume{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 8%;
 }
 .viewResume p{
     font-size: 20px;
     color: #4f351e;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .viewResume a{
     font-size: 20px;
     color: #4f351e;
     border: #4f351e 2px solid;
     border-radius: 10px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition:  0.5s ease;
+}
+
+.viewResume a:hover{
+    padding: 10px 20px;
+    margin-top: 5%;
+    text-decoration: none;
+    transition:  0.5s ease;
+
 }
 
 .Experience {
@@ -185,7 +156,11 @@ li {
     width: 100rem;
     padding: 20px;
     flex-direction: column;
-    margin-top: 8%;
+    align-items: center;
+   margin-left: 20%;    
+   margin-top: 3%;
+    max-width: 1000px;
+    box-shadow: #6a43009c 0px 0px 10px;
 }
 .languages li, .tools li {
     background-color: transparent;
@@ -203,7 +178,7 @@ li {
 .tools li img {
     width: 60px;
     height: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     object-fit: contain;
 }
 .languages li img {
@@ -233,7 +208,7 @@ li {
 
 .tools ul {
     justify-content:center;
-    gap: 30px;
+    gap: 100px;
     margin-left: 15%;
 }
 
@@ -271,5 +246,98 @@ li {
     .languages li, .tools li {
         flex: 0 0 40%;
         margin-bottom: 20px;
+    }
+}
+
+
+ 
+.anfooter2 {
+    background: linear-gradient(45deg, #8e612579 0%, #fcbd5e38 99%, #f1d17b35 50%);
+    padding: 30px 30px 10px; 
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.ancontainer2 {
+    padding-left: 15%;
+    width: 100%;
+    align-items: center;
+}
+
+.social-links2-2 {
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.social-links2-2 a {
+    text-decoration: none;
+    padding: 8px; 
+    background-color: rgb(255, 255, 255);
+    margin: 5px; 
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+}
+
+.social-links2-2 a img {
+    width: 25px; 
+    height: 20px;
+}
+
+.social-links2-2 a:hover {
+    background-color: #463000;
+}
+
+.social-links2-2 a:hover img {
+    filter: invert(1);
+}
+
+.navi-2 ul li a:hover {
+    opacity: 1;
+}
+
+.bottom-2 {
+    padding: 10px; 
+    text-align: center;
+    width: 100%;
+
+}
+
+.bottom-2 p {
+    color: white;
+    margin-left: 5%;
+  
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+    font-size: 0.9em; 
+}
+
+@media (max-width: 700px) {
+    .navi-2 ul {
+        flex-direction: column;
+    }
+
+    .navi-2 ul li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0; 
+    }
+
+    .social-links2-2 a {
+        padding: 6px; 
+        margin: 3px; 
+    }
+
+    .social-links2-2 a img {
+        width: 18px; 
+        height: 18px; 
     }
 }
