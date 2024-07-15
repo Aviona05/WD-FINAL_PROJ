@@ -13,16 +13,24 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 26.4px;
-    background-image: url(../img/bg.png);
-    background-size: cover;
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 88%;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
 }
+
+header {
+    width: 100%;
+    z-index: 1000;
+}
+
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #8c6f5589;
-    height: 45px;
+    height: 6vh;
 }
 nav img{
     width: 60px;
@@ -30,9 +38,9 @@ nav img{
 }
 ul{
     display: flex;
-    gap: 38px;
+    gap: 65px;
     list-style: none;
-    margin-right: 10%;
+    margin-right: 14%;
 }
 nav a{
     position: relative;
