@@ -43,6 +43,9 @@
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
      <li>
+      <a href="#file-structure-explanation">File Structure Explanation</a>
+    </li>
+     <li>
       <a href="#deployment-instructions">Deployment Instructiona</a>
     </li>
      <li>
@@ -93,86 +96,80 @@ Guiding Question:
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
+
+### File Structure Explanation
+
+The file structure of this project consists of the following components: assets, pages, index.html, and README.md. Inside the assets folder, there are images and css subfolders. The pages folder contains four pages: about-me, contact, resume, and work. Each of these pages has its own assets folder that also contains images, css, and an index.html file.
+
+
 ### File Structure
 
 ```
 
-WD-Final-Project
+WD-Finals
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ bgmain.jpg
-|   |   └─ bgmain2.jpg
-|   |   └─ logoforheader.png
-|   └─ js
-|       └─ script.js
+|       └─ bgmain.jpg
+|       └─ bgmain2.jpg
+|       └─ logoforheader.png     
 └─ pages
 |  └─ about-me
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |  |  └─ bgmain.jpg
-|  |  |  |  └─ bgmain2.jpg
-|  |  |  |  └─ logoforheader.png
-|  |  |  └─ js
-|  |  |     └─ script.js
+|  |  |     └─ bgmain.jpg
+|  |  |     └─ bgmain2.jpg
+|  |  |     └─ logoforheader.png
 |  |  └─ index.html
 |  └─ About me
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |  |  └─ bg1.jpg
-|  |  |  |  └─ c++.png
-|  |  |  |  └─ canva.png
-|  |  |  |  └─ figma.png
-|  |  |  |  └─ htmlcss.png
-|  |  |  |  └─ illustrator.png
-|  |  |  |  └─ logo.png
-|  |  |  |  └─ me.png
-|  |  |  |  └─ photoshop.png
-|  |  |  └─ js
-|  |  |     └─ script.js
+|  |  |     └─ bg1.jpg
+|  |  |     └─ c++.png
+|  |  |     └─ canva.png
+|  |  |     └─ figma.png
+|  |  |     └─ htmlcss.png
+|  |  |     └─ illustrator.png
+|  |  |     └─ logo.png
+|  |  |     └─ me.png
+|  |  |     └─ photoshop.png
 |  |  └─ index.html
 |  └─ contact
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |  |  └─ bg.jpg
-|  |  |  |  └─ logo.png
-|  |  |  └─ js
-|  |  |     └─ script.js
+|  |  |     └─ bg.jpg
+|  |  |     └─ logo.png
 |  |  └─ index.html
 |  └─ resume
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |  |  └─ bg.jpg
-|  |  |  |  └─ logo.png
-|  |  |  |  └─ me copy.jpg
-|  |  |  └─ js
-|  |  |     └─ script.js
+|  |  |     └─ bg.jpg
+|  |  |     └─ logo.png
+|  |  |     └─ me copy.jpg
 |  |  └─ index.html
 |  └─ Works
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ bg.jpg
-|     |  |  └─ card.png
-|     |  |  └─ h&f.png
-|     |  |  └─ ig.png
-|     |  |  └─ in2.png
-|     |  |  └─ logo.png
-|     |  |  └─ midterm.png
-|     |  |  └─ resume.png
-|     |  |  └─ twt.png
-|     |  └─ js
-|     |     └─ script.js
+|     |     └─ bg.jpg
+|     |     └─ card.png
+|     |     └─ h&f.png
+|     |     └─ ig.png
+|     |     └─ in2.png
+|     |     └─ logo.png
+|     |     └─ midterm.png
+|     |     └─ resume.png
+|     |     └─ twt.png
 |     └─ index.html
 └─ index.html
 └─ README.md
