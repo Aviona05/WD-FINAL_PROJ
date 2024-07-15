@@ -62,14 +62,14 @@ Guiding Question:
 - Whats the purpose? The purpose of this project is to showcase what we gained knowledge, skills and experience on Web designing. 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
 - Hover Effect
 - Cards animation
+- Resume-like Information
+- Project Showcase
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -85,32 +85,103 @@ Guiding Question:
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
+### File Structure
+
 ```
-WD-ProjectName
+
+WD-Final-Project
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ bgmain.jpg
+|   |   └─ bgmain2.jpg
+|   |   └─ logoforheader.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ about-me
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bgmain.jpg
+|  |  |  |  └─ bgmain2.jpg
+|  |  |  |  └─ logoforheader.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ About me
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bg1.jpg
+|  |  |  |  └─ c++.png
+|  |  |  |  └─ canva.png
+|  |  |  |  └─ figma.png
+|  |  |  |  └─ htmlcss.png
+|  |  |  |  └─ illustrator.png
+|  |  |  |  └─ logo.png
+|  |  |  |  └─ me.png
+|  |  |  |  └─ photoshop.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ contact
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bg.jpg
+|  |  |  |  └─ logo.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ resume
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bg.jpg
+|  |  |  |  └─ logo.png
+|  |  |  |  └─ me copy.jpg
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ Works
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ bg.jpg
+|     |  |  └─ card.png
+|     |  |  └─ h&f.png
+|     |  |  └─ ig.png
+|     |  |  └─ in2.png
+|     |  |  └─ logo.png
+|     |  |  └─ midterm.png
+|     |  |  └─ resume.png
+|     |  |  └─ twt.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
 └─ index.html
-└─ readme.md
+└─ README.md
 ```
+### Deployment Instructions
 
+To deploy this website, you have two options. First, clone the repository locally using Git, navigate to the project directory, and open the index.html file in your web browser to view the site. Alternatively, for online deployment, create a GitHub repository, push your code to GitHub, and enable GitHub Pages from your repository settings by selecting the main branch and root folder. Once deployed, your website will be accessible at the designated GitHub Pages URL. Ensure all links and functionalities are working correctly in the deployed version to provide a seamless user experience.
+
+### My Projects
+Explore my project repository: 
+- [WD-Hands on 1(midterm)](https://aviona05.github.io/WD-MIDTERM/)
+- [WD-Hands On 2](https://aviona05.github.io/WD-HANDS-ON-2/)
+- [WD-Seatwork 2](https://aviona05.github.io/WD-Bernil_SW2/)
+- [WD-Seatwork 3](https://aviona05.github.io/WD-SEATWORK-3/)
+- [WD-Seatwork 4](https://aviona05.github.io/WD-SEATWORK4/)
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 |Canva|use to edit prototype for design ideas|https://www.canva.com/|
