@@ -5,19 +5,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-    <img src="./assets/img/BEAR.png" width="130" height="100">
+    <img src="./assets/img/logo.png" width="130" height="100">
   </a>
 
-  <h3 align="center">HERO AND CARDS</h3>
+  <h3 align="center">Final project</h3>
 </div>
 
 <div align="center">
-  Different designs and animation of Hero and Cards using HTML and CSS
+ A compilation of past projects and showcase of my skills and experience with Web Development.
 </div>
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=Aviona05/WD-HANDS-ON-2)
+![](https://visit-counter.vercel.app/counter.png?page=Aviona05/WD-Finals)
 
 ---
 
@@ -57,17 +57,16 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project? This project is about creating diffeerent design and animation for hero and cards of a website.
+- What is the project? This project is about making our own website or portfolio compiling all of our past hands on and seatworks in Web designing.
 
-- Whats the purpose? The purpose of this project it to deliver attractive and practical elements that boost the website's user experience and strengthen brand identity. The designs should appeal to a wide range of interests and styles, providing consumers with several options.
-
+- Whats the purpose? The purpose of this project is to showcase what we gained knowledge, skills and experience on Web designing. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-- Card Flip Animation
 - Hover Effect
+- Cards animation
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -114,9 +113,12 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-|Github|Get some ideas for landing page and flow of codes|https://github.com/zyx-0314/WD-Seatwork-3|
-|CSS Card Hover Effects HTML & CSS|Get some card design ideas|https://youtu.be/Q8BamnhOmWc?si=6W1lNtjXxt8iX5PC|
+|Canva|use to edit prototype for design ideas|https://www.canva.com/|
+|Youtube|Get some card design ideas for contact pages|https://www.youtube.com/results?search_query=contact+page|
 |Responsive CSS Cards with Hover Overlay Animation|Get some card design ideas|https://youtu.be/c-6XRnYHbkw?si=e119AOUA_W7eo_YY|
-|How To Make A Website Header Using HTML And CSS Step By Step Web Design In HTML & CSS|Get some ideas|https://youtu.be/Oa9LTDR9ugU?si=VryKGavWu1ADQPFF|
-|Divinectorweb|Get some card design and animation ideas |https://www.youtube.com/results?search_query=divinectorweb |
-|CSS Card Flipping Animation on hover CSS Animation Tutorial |Get card animation ideas|https://youtu.be/YMK8lCu59LU?si=lsi02w83prgmB5za|
+|Google Fonts|Used to get Different font styles|https://fonts.google.com/|
+|Css.gg|used to get icons |https://css.gg/|
+|Pinterest|Get photos for background|https://ph.pinterest.com/pin/787355947381928979/|
+
+## Wakatime
+https://wakatime.com/@018f0316-294f-4b38-b869-a3201b1c8b64/projects/jcuppksrbz?start=2024-07-09&end=2024-07-15 
