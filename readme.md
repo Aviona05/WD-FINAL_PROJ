@@ -180,11 +180,11 @@ To deploy this website, you have two options. First, clone the repository locall
 
 ### My Projects
 Explore my project repository: 
-- [WD-Hands on 1(midterm)](https://aviona05.github.io/WD-MIDTERM/)
-- [WD-Hands On 2](https://aviona05.github.io/WD-HANDS-ON-2/)
-- [WD-Seatwork 2](https://aviona05.github.io/WD-Bernil_SW2/)
-- [WD-Seatwork 3](https://aviona05.github.io/WD-SEATWORK-3/)
-- [WD-Seatwork 4](https://aviona05.github.io/WD-SEATWORK4/)
+- [WD-Hands on 1(midterm)](https://github.com/Aviona05/WD-MIDTERM)
+- [WD-Hands On 2](https://github.com/Aviona05/WD-HANDS-ON-2)
+- [WD-Seatwork 2](https://github.com/Aviona05/WD-Bernil_SW2)
+- [WD-Seatwork 3](https://github.com/Aviona05/WD-SEATWORK-3)
+- [WD-Seatwork 4](https://github.com/Aviona05/WD-SEATWORK4)
 ## Resources
 
 | Title | Purpose | Link |
