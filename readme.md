@@ -42,8 +42,17 @@
     <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
+     <li>
+      <a href="#deployment-instructions">Resources</a>
+    </li>
+     <li>
+      <a href="#my-projects">Resources</a>
+    </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+     <li>
+      <a href="#wakatime">Resources</a>
     </li>
   </ol>
 </details>
@@ -53,7 +62,7 @@
 ## Overview
 
 
-<!-- The following are just sample -->
+
 Description of the project in details.
 
 Guiding Question:
@@ -62,7 +71,6 @@ Guiding Question:
 - Whats the purpose? The purpose of this project is to showcase what we gained knowledge, skills and experience on Web designing. 
 
 ### Key Components
-<!-- The following are just sample -->
 - MultiPage Website
 - Hover Effect
 - Cards animation
